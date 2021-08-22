@@ -1,0 +1,82 @@
+.formControl.error input,
+.formControl.error textarea
+{
+    border: solid red 2px;
+}
+
+.formControl.error span
+{
+    color: red;
+}
+
+.formSummaryError {
+    border: red 1px solid;
+    padding: 5px;
+    color: red;
+}
+
+.formControl input{
+	background-color: black;
+	height: 25px;
+}
+
+
+.login__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+	height: 100%;
+}
+
+.login__container h1 {
+	display: block;
+	font-size: 24px;
+}
+
+.login__container_box{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid red;
+	
+	background-color: black;
+	width: 400px;
+	height: 300px;
+}
+
+.login__container_box_wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+	width: 400px;
+	height: 200px;
+	
+
+}
+
+.login__container_box_wrapper input{
+	background-color: black;
+	color: white;
+	width: 150px;
+}
+
+
+.login_button{
+	background-color: red;
+	color: white;
+	width: 120px;
+	height: 40px;
+}
+
+.login_button a{
+	color: white;
+	font-size: 20px;
+}
+
+.test_border{
+	border: 1px solid red;
+}

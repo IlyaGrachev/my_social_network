@@ -1,0 +1,82 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+	height: 100%;
+	border: 1px solid red;
+}
+
+
+.dialogs__input{
+	
+	background-color: black;
+	height: 60px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.dialogs__input input {
+	height: 50px;
+	width: 540px;
+	background-color: black;
+	color: white;
+	border: 1px solid red;
+	padding: 5px;
+}
+
+.dialogs__input button {
+	width: 70px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	float: center;
+}
+
+
+
+
+
+.dialogsItems {
+	margin: 10px;
+    padding: 10px;
+    color: white;
+	border: 1px solid red;
+
+}
+
+.dialogsItems__item{
+	color: white;
+	margin-bottom: 10px;
+	height: 50px;
+	font-size: 18px;
+}
+
+.dialogsItems a{
+	display: block;
+	color: white;
+}
+
+.dialogsItems .active {
+    color: red;
+}
+
+.messages {
+	margin: 10px;
+    padding: 10px;
+	border: 1px solid red;
+}
+
+.messages .message {
+    color: white;
+}
+
+.dialog{
+	padding-bottom: 10px;
+}
+
+.dialog__item{
+	border: 1px solid red;
+	min-height: 50px;
+	padding: 10px;
+}

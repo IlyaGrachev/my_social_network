@@ -1,0 +1,46 @@
+.postsBlock {
+	margin-top: 10px;
+    padding: 10px;
+	border: 1px solid red;
+	min-height: 445px;
+}
+
+.postsBlock h3 {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.postsBlock__addForm {
+	background-color: black;
+	max-width: 100%;
+	height: 60px;
+	padding: 5px;
+}
+
+.postsBlock__addForm_form{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.postsBlock__addForm input {
+	height: 50px;
+	width: 800px;
+	background-color: black;
+	color: white;
+	border: 1px solid red;
+	padding: 5px;
+
+}
+
+.postsBlock__addForm button {
+	width: 70px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	float: center;
+}
+
+.posts {
+    margin: 5px;
+}

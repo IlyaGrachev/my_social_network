@@ -1,0 +1,31 @@
+
+
+.app{
+	display: flex;
+	justify-content: center;
+	background: url('./assets/images/main_back.jpg') center center/cover no-repeat;
+	width: 100%;
+	min-height: 1000px;
+	color: white;
+	font-size: 14px;
+}
+
+
+.app_wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1200px;
+	min-height: 100%;
+
+    grid-template-areas: "h h" "n c" "f f";
+	
+    grid-template-rows: 80px 1fr 60px;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 20px;
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    background-color: rgba(3, 3, 10, 0.644);
+	padding: 10px
+}

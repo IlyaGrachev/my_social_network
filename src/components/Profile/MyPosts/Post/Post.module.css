@@ -1,0 +1,19 @@
+.item {
+	background-color: black;
+	color: white;
+	border: 1px solid red;
+	margin: 5px auto;
+}
+
+.item_space{
+	
+	margin: 5px;
+	padding: 5px;
+	min-height: 50px;
+}
+
+.item_likes{
+	margin: 5px;
+	padding: 5px;
+	text-align: right;
+}

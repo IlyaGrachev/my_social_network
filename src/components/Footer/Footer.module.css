@@ -1,0 +1,12 @@
+.footer {
+    grid-area: f;
+    background-color: black;
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_item{
+	color: white;
+}

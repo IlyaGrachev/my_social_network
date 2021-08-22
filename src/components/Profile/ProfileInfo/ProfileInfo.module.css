@@ -1,0 +1,54 @@
+.descriptionBlock {
+    padding: 10px;
+	border: 1px solid red;
+	display: flex;
+}
+
+.descriptionBlock__photo{
+	width: 250px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.descriptionBlock__photo input {
+	margin-bottom: 20px;
+}
+
+.mainPhoto {
+    max-width: 250px;
+	margin-bottom: 20px;
+}
+
+
+.descriptionBlock__contacts{
+	width: 600px;
+
+}
+
+.descriptionBlock__contacts_name{
+	color: red;
+	font-size: 24px;
+	padding: 15px;
+}
+
+
+.contact {
+    padding-left: 10px;
+	padding-top: 5px;
+}
+
+.descriptionBlock__data{
+	padding-left: 10px;
+}
+
+.descriptionBlock__data_item{
+	padding-bottom: 5px;
+}
+
+.descriptionBlock__data_button {
+	width: 50px;
+	height: 30px;
+	background-color: red;
+	color: white;
+	float: right;
+}

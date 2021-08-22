@@ -1,0 +1,55 @@
+.users{
+	border: 1px solid red;
+	height: 100%;
+	
+}
+
+.users__paginator{
+	display: flex;
+	justify-content: center;
+	border: 1px solid red;
+	margin: 5px;
+}
+
+.users__wall{
+	display: flex;
+	flex-wrap: wrap;
+	
+	border: 1px solid red;
+	margin: 5px;
+}
+
+
+
+
+.user__card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 150px;
+	height: 200px;
+	border: 1px solid red;
+	margin: 19.5px;
+}
+
+.user__card_photo{
+	display: flex;
+	width: 100px;
+	height: 100px;
+}
+
+.user__card_name{
+	font-size: 18px;
+}
+
+.user__card_button{
+	margin: auto 0;
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: white;
+}
+
+
+

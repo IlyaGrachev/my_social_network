@@ -1,0 +1,22 @@
+
+.paginator {
+    margin: 30px;
+	cursor: pointer;
+}
+.pageNumber {
+    padding: 5px;
+}
+
+.pageNumber.selectedPage {
+    font-weight: bold;
+    color: red;
+	border: 2px solid red;
+}
+
+.paginator__button{
+	margin: auto 10px;
+	width: 80px;
+	height: 30px;
+	background-color: red;
+	color: white;
+}
